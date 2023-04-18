@@ -1,4 +1,4 @@
-# xlcolumnizer
+# exclcolumnizer
 
 ## What is it?
 
@@ -6,7 +6,7 @@ A package that helps you recover columns of Excel data converted from PDF files.
 
 ## Where to get it
 
-<pre lang=sh>pip install xlcolumnizer</pre>
+<pre lang=sh>pip install excelcolumnizer</pre>
 
 ## Dependencies
 
@@ -19,7 +19,7 @@ A package that helps you recover columns of Excel data converted from PDF files.
 
 ```python
 
-import xlcolumnizer as xl
+import excelcolumnizer as xl
 
 xlpath='<full name of your excel file including extension>'
 xl.sheet(xlpath)
