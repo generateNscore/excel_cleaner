@@ -38,11 +38,9 @@ xl.sheet(xlpath)
 <li>After every action, the contents will be saved to a file that is the original name with a string "_cleaned".</li>
 <li>When a cell is inserted, all the cells at right will be shifted to the right</li>
 <li>When a cell is deleted, all the cells at right will be shifted to the left and the cell at the last column will be empty.</li>
-  <li>If the action is done by mistake, press function-key F12 to restore the last action</li>
-  
-  
-<br>
-  <li>To aid your step, some highlights take places</li>
+  <li>If the action is done by mistake, press function-key F12 to restore the last action</li></ul>
+  <br>
+<ul><li>To aid your step, some highlights take places</li>
   <ul><li>Some rows will be highlighted in redish, indicating that the row is least occurance among "patterns". It does not mean you need to delete the row, but it might be one of them you want to delete.<li>
     <li>When columns are highlighted, the columns are all empty. Thus, you can certainly delete the columns</li></ul>
   
