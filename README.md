@@ -30,11 +30,13 @@ xl.sheet(xlpath)
 <li>Here is a recommending set of steps:</li>
 <ol><li>Remove unwanted rows</li>
 <li>Remove unwanted columns or combine columns</li>
-  <li>Click a cell to insert or delete the cell/li></ol></ul>
+  <li>Click a cell to insert or delete the cell/li></ol>
+<br>
 
-
-<li>Click a topmost row number and drag to the row to select</li>
-<li>Press a Function key, for example F7, to delete the selected rows.</li>
-
+<li>All action is repeated as long as the selected rows/columns are found at other locations.</li>
+  <ul><li>Thus, do start at the top</li></ul>
+<li>After every action, the contents will be saved to a file that is the original name with a string "_cleaned".</li>
+<li>When a cell is inserted, all the cells at right will be shifted to the right</li>
+<li>When a cell is deleted, all the cells at right will be shifted to the left and the cell at the last column will be empty.</li>  
 </ul>
 <br>
