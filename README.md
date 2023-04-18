@@ -15,7 +15,7 @@ A package that helps you recover columns of Excel data converted from PDF files.
 
 ## Changes
 <ul>
-<li>Version 0.0.1</li>
+<li>Version 0.0.4</li>
 
 ```python
 
