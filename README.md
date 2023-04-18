@@ -21,21 +21,23 @@ A package that helps you recover columns of Excel data converted from PDF files.
 
 import excelcolumnizer as xl
 
-xlpath='<full name of your excel file including extension>'
+xlpath='(excel file name with extension)'
 xl.sheet(xlpath)
 
 ```
 
-<ul><li>A GUI with tksheet will be opened with the contents of excel file.</li>
-<li>Here is a recommending set of actions to try:</li>
+<ul><li>A tksheet window will be opened with the contents of excel file.</li>
+<li>Here are recommending orders of actions to try:</li>
 <ol><li>Remove unwanted rows (F7)</li>
 <li>Remove unwanted columns (F7) or combine columns (F5)</li>
   <li>Click a cell to insert (F1) or delete the cell (F3)</li></ol>
 <br>
 
-<li>All action is repeated if the same kind of selected rows/columns is found at other locations.</li>
-  <ul><li>Thus, try one action at the top</li></ul>
-<br>
+<li>If the same pattern or kind of selected rows/columns is found at other locations, the same action is repeated for the found rows/columns.</li>
+  <ul><li>Thus, it would better try one action at the top</li>
+  <li>To remove rows, click the row names.</li>
+    <li>To remove or combine columns, click the column names.</li></ul>
+  <br>
 <li>After every action, the contents will be saved to a file that is the original name with a string "_cleaned".</li>
 <li>When a cell is inserted, all the cells at right will be shifted to the right and an extra column will be created with empty for all other rows that are not changed.</li>
 <li>When a cell is deleted, all the cells at right will be shifted to the left and the cell at the last column will be empty.</li>
