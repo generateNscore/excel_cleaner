@@ -37,7 +37,7 @@ xl.sheet(xlpath)
   <ul><li>Thus, try one action at the top</li></ul>
 <br>
 <li>After every action, the contents will be saved to a file that is the original name with a string "_cleaned".</li>
-<li>When a cell is inserted, all the cells at right will be shifted to the right</li>
+<li>When a cell is inserted, all the cells at right will be shifted to the right and an extra column will be created with empty for all other rows that are not changed.</li>
 <li>When a cell is deleted, all the cells at right will be shifted to the left and the cell at the last column will be empty.</li>
   <li>If the action is done by mistake, press function-key F12 to restore the last action</li></ul>
   <br>
