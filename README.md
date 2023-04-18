@@ -1,4 +1,4 @@
-# exclcolumnizer
+# excelcolumnizer
 
 ## What is it?
 
