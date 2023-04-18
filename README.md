@@ -30,7 +30,7 @@ xl.sheet(xlpath)
 <li>Here is a recommending set of steps:</li>
 <ol><li>Remove unwanted rows</li>
 <li>Remove unwanted columns or combine columns</li>
-  <li>Click a cell to insert or delete the cell/li></ol>
+  <li>Click a cell to insert or delete the cell/li></ol></ul>
 
 
 <li>Click a topmost row number and drag to the row to select</li>
