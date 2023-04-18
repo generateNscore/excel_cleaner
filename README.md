@@ -40,9 +40,11 @@ xl.sheet(xlpath)
 <li>When a cell is deleted, all the cells at right will be shifted to the left and the cell at the last column will be empty.</li>
   <li>If the action is done by mistake, press function-key F12 to restore the last action</li></ul>
   <br>
-<ul><li>To aid your step, some highlights take places</li>
-  <ul><li>Some rows will be highlighted in redish, indicating that the rows are least occurance among "patterns". It does not mean you need to delete the rows, but it might be one of them you want to delete.</li>
-    <li>When columns are highlighted, the columns are all empty. Thus, you can certainly delete the columns</li></ul>
-    
+<ul><li>After each action is completed,</li>
+<ul><li>the number of columns and rows will be displayed</li>
+<li>the number of patterns of the values on each row will be displayed</li>
+<li>the rows in least pattern will be highlighted</li></ul>
+<br>
+<li>When columns are highlighted, the columns are all empty. So, you can certainly delete the columns</li></ul>
 </ul>
 <br>
