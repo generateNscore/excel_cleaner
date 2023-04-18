@@ -41,9 +41,8 @@ xl.sheet(xlpath)
   <li>If the action is done by mistake, press function-key F12 to restore the last action</li></ul>
   <br>
 <ul><li>To aid your step, some highlights take places</li>
-  <ul><li>Some rows will be highlighted in redish, indicating that the row is least occurance among "patterns". It does not mean you need to delete the row, but it might be one of them you want to delete.<li>
+  <ul><li>Some rows will be highlighted in redish, indicating that the rows are least occurance among "patterns". It does not mean you need to delete the rows, but it might be one of them you want to delete.</li>
     <li>When columns are highlighted, the columns are all empty. Thus, you can certainly delete the columns</li></ul>
-  
     
 </ul>
 <br>
