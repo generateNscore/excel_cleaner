@@ -27,16 +27,17 @@ xl.sheet(xlpath)
 ```
 
 <ul><li>A GUI with tksheet will be opened with the contents of excel file.</li>
-<li>Here is a recommending set of steps:</li>
-<ol><li>Remove unwanted rows</li>
-<li>Remove unwanted columns or combine columns</li>
-  <li>Click a cell to insert or delete the cell/li></ol>
+<li>Here is a recommending set of actions to try:</li>
+<ol><li>Remove unwanted rows (F7)</li>
+<li>Remove unwanted columns (F7) or combine columns (F5)</li>
+  <li>Click a cell to insert (F1) or delete the cell (F3)</li></ol>
 <br>
 
-<li>All action is repeated as long as the selected rows/columns are found at other locations.</li>
-  <ul><li>Thus, do start at the top</li></ul>
+<li>All action is repeated if the same kind of selected rows/columns is found at other locations.</li>
+  <ul><li>Thus, try one action at the top</li></ul>
 <li>After every action, the contents will be saved to a file that is the original name with a string "_cleaned".</li>
 <li>When a cell is inserted, all the cells at right will be shifted to the right</li>
-<li>When a cell is deleted, all the cells at right will be shifted to the left and the cell at the last column will be empty.</li>  
+<li>When a cell is deleted, all the cells at right will be shifted to the left and the cell at the last column will be empty.</li>
+  <li>If the action is done by mistake, press function-key F12 to restore the last action</li>
 </ul>
 <br>
