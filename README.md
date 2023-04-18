@@ -35,6 +35,7 @@ xl.sheet(xlpath)
 
 <li>All action is repeated if the same kind of selected rows/columns is found at other locations.</li>
   <ul><li>Thus, try one action at the top</li></ul>
+<br>
 <li>After every action, the contents will be saved to a file that is the original name with a string "_cleaned".</li>
 <li>When a cell is inserted, all the cells at right will be shifted to the right</li>
 <li>When a cell is deleted, all the cells at right will be shifted to the left and the cell at the last column will be empty.</li>
