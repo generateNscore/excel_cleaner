@@ -28,11 +28,13 @@ xl.sheet(xlpath)
 
 <ul><li>A GUI with tksheet will be opened with the contents of excel file.</li>
 <li>Here is a recommending set of steps:</li>
-<ul><li>Remove unwanted rows</li>
-  <li>Click a topmost row number and drag to the row to select</li>
-  <li>Press a Function key, for example F7, to delete the selected rows.</li>
+<ol><li>Remove unwanted rows</li>
 <li>Remove unwanted columns or combine columns</li>
-<li>Insert a cell at a particular column</li>
+  <li>Click a cell to insert or delete the cell/li></ol>
+
+
+<li>Click a topmost row number and drag to the row to select</li>
+<li>Press a Function key, for example F7, to delete the selected rows.</li>
 
 </ul>
 <br>
