@@ -41,13 +41,11 @@ xl.sheet(xlpath)
 <li>After every action, the contents will be saved to a file that is the original name with a string "_cleaned".</li>
 <li>When a cell is inserted, all the cells at right will be shifted to the right and an extra column will be created with empty for all other rows that are not changed.</li>
 <li>When a cell is deleted, all the cells at right will be shifted to the left and the cell at the last column will be empty.</li>
-  <li>If one action is done by mistake, press function-key F12 to restore the last action</li></ul>
+  <li>If one action is done by mistake, press function-key F12 to restore the the data before he last action</li></ul>
   <br>
 <ul><li>After each action is completed,</li>
-<ul><li>the number of columns and rows will be displayed</li>
-<li>the number of patterns of the values on each row will be displayed</li>
-<li>the rows in least pattern will be highlighted</li></ul>
-<br>
-<li>When columns are highlighted, the columns are all empty. So, you can certainly delete the columns</li></ul>
+<ul><li>the number of columns and rows and the number of patterns of rows will be displayed</li>
+<li>either a few columns or muliple rows are highlighted, which are indicative of ok to be deleted.</li></ul>
+</ul>
 </ul>
 <br>
