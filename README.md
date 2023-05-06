@@ -1,4 +1,4 @@
-# excel_cleaner
+# excelcleaner
 
 ## What is it?
 
@@ -6,7 +6,7 @@ A package that helps you clean and recover columns of Excel data converted from 
 
 ## Where to get it
 
-<pre lang=sh>pip install excel_cleaner</pre>
+<pre lang=sh>pip install excelcleaner</pre>
 
 ## Dependencies
 
@@ -19,7 +19,7 @@ A package that helps you clean and recover columns of Excel data converted from 
 
 ```python
 
-import excel_cleaner as xl
+import excelcleaner as xl
 
 xlpath='(excel file name with extension)'
 xl.sheet(xlpath)
