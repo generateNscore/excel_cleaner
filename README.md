@@ -1,12 +1,12 @@
-# excelcolumnizer
+# excel_cleaner
 
 ## What is it?
 
-A package that helps you recover columns of Excel data converted from PDF files.
+A package that helps you clean and recover columns of Excel data converted from PDF files.
 
 ## Where to get it
 
-<pre lang=sh>pip install excelcolumnizer</pre>
+<pre lang=sh>pip install excel_cleaner</pre>
 
 ## Dependencies
 
@@ -19,7 +19,7 @@ A package that helps you recover columns of Excel data converted from PDF files.
 
 ```python
 
-import excelcolumnizer as xl
+import excel_cleaner as xl
 
 xlpath='(excel file name with extension)'
 xl.sheet(xlpath)
